@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title #{title} Sniffer
+    link(id='favicon', rel='icon', type='image/x-icon', href='https://cdn.gomix.com/6b38c407-645c-4cad-beea-3f7aaf616b9c%2Ffavicon.ico')
+    link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+    link(href='/style.css', rel='stylesheet')
+
+  body
+    div#box
+        center
+              h1 Request Header Sniffer
+              br
+              h2 Description
+              
+              h3 This service provides information about the client (ie. you, and your computer), the information contained in the request header.When you hit this service, we'll return to you your IP address, your language, your operating system. All packaged up into a neat little JSON.
+              
+              h3 To use this service, just whack on /api/whoami on to the tail end of this url!    
+              h2 Example API Calls
+              h3 https://sniffer.glitch.me/api/whoami
+              h2 Example Response
+              h3 {"ip-address":"104.219.131.30","language":"en-US","software":"Windows NT 6.3; Win64; x64"}
+              

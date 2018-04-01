@@ -1,0 +1,37 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-image: url('http://res.cloudinary.com/jun03/image/upload/v1522598008/black_hd_wallpapers_wide_24_bvdtn6.jpg');
+  background-size:cover;
+ }
+#box{
+position: absolute;
+  top:10%;
+  left:50%;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:40%;
+}
+h1 {
+  font-weight: bold;
+  color: grey;
+  
+}
+h2{
+color:red;
+}
+
+h3{
+  color: white;
+}
